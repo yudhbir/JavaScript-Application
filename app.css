@@ -1,0 +1,18 @@
+.author_info {display:block;width:50%;margin-bottom:10px;}
+.author_info .fa-user-secret{float:left;padding: 4px;font-size: 32px;color: #FF5733;}
+.author_info #author_detail{float:left;font-size: 16px;padding-top: 8px;}
+.action_btn{float:right;margin-bottom:10px;}
+.action_btn .fa.fa-home{padding: 0 8px;}
+.btn-group .btn{background-color:#FF5733; margin-left:12px !important; border:none;color:#ffffff;}
+#book_frm input[type='text'], #Edbook_frm input[type='text'] {	width: 60%;border-radius: 6px !important;height: 30px !important;border: 1px solid #ccc;padding-left:24px;
+}
+.btn.saction_btn{width: 300px;border: 1px solid #ccc;background-color: #FF5733;color: #ffffff;}
+.fa.fa-pencil-square-o,.fa.fa-trash-o{color: #FF5733;}
+
+@media (max-width: 360px) { 
+.author_info {width: 100%;}
+.author_info #author_detail{float:none;}
+.author_info .fa-user-secret{margin-left: 72px;}
+.action_btn {float:none;margin-left: 44px;}
+#add_book_sec{padding:0 8px;}
+}
